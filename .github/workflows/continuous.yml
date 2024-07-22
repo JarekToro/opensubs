@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: package
-          path: package.json
+          path: ./package.json
 
   publish:
     needs: build
@@ -52,7 +52,7 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: package
-          path: package.json
+          path: ./package.json
       - uses: actions/setup-node@v3
         with:
           node-version: 20
