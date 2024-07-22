@@ -1,5 +1,5 @@
 {
-  "name": "opensubs",
+  "name": "opensubs-fetch",
   "version": "1.0.0",
   "author": "Ivan Melnikov",
   "main": "dist/cjs/index.js",
